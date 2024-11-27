@@ -1,0 +1,52 @@
+:root {
+    --bg-color: #051022;
+    --card-bg: #091835;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    color: #ffffffe1;
+    margin: 0;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+main {
+    width: 97%;
+    height: 97%;
+    border-radius: 10px;
+}
+
+.card {
+    height: 200px;
+    width: 800px;
+    border-radius: 10px;
+    background-color: var(--card-bg);
+    display: flex;
+    padding: 20px;
+}
+
+.image {
+    width: 25%;
+}
+.image > img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.middle {
+    height: 200px;
+    border: 1px solid blue;
+    flex-grow: 1;
+}
+
+.end {
+    width: 20%;
+    height: 200px;
+    border: 1px solid yellow;
+}
